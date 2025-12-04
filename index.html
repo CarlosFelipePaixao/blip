@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zeferino Sales Assistant – Demo</title>
+</head>
+<body style="margin:0; padding:0; display:flex; justify-content:center; align-items:center; height:100vh; background:#ffffff;">
+
+  <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+  <script>
+    (function () {
+      window.onload = function () {
+        new BlipChat()
+          .withAppKey('cm91dGVyc2VndXJhZG9yYTozYTdhNjlhYy00NjZmLTRlNzYtYTdjZC00ZWQ5MmY5N2QxOGE=')
+          .withButton({
+            color: '#E76F9B',
+            icon: ''
+          })
+          .build();
+      }
+    })();
+  </script>
+
+</body>
+</html>
